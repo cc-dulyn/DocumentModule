@@ -1,0 +1,3326 @@
+{
+  "type": "document",
+  "cover": [
+    {
+      "type": "paragraph",
+      "index": 1,
+      "text": "三菱日联银行(中国)有限公司"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "text": "需求规格说明书"
+    },
+    {
+      "type": "paragraph",
+      "index": 3,
+      "text": "合同管理"
+    },
+    {
+      "type": "paragraph",
+      "index": 4,
+      "text": "文档审核与确认"
+    },
+    {
+      "type": "table",
+      "index": 5,
+      "row": 3,
+      "col": 4,
+      "data": [
+        [
+          "文档编制方",
+          "神州数码融信软件有限公司",
+          "文档确认方",
+          "三菱日联银行(中国)有限公司"
+        ],
+        [
+          "负责人",
+          "",
+          "负责人",
+          ""
+        ],
+        [
+          "日期",
+          "2025/06/30",
+          "日期",
+          "2025/06/30"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 6,
+      "text": "修订记录"
+    },
+    {
+      "type": "paragraph",
+      "index": 7,
+      "text": "说明：\tAdd - 增加  Mod - 修改  Del - 删除"
+    },
+    {
+      "type": "table",
+      "index": 8,
+      "row": 10,
+      "col": 6,
+      "data": [
+        [
+          "版本编号",
+          "日期",
+          "变更类型",
+          "修改人",
+          "摘要",
+          "备注"
+        ],
+        [
+          "V0.5",
+          "2025-05-30",
+          "Add",
+          "王叶青",
+          "建立初始文档",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "toc": [
+    {
+      "type": "paragraph",
+      "index": 9,
+      "text": "目录"
+    },
+    {
+      "type": "heading",
+      "index": 10,
+      "level": 1,
+      "text": "概述\t1",
+      "children": [
+        {
+          "type": "heading",
+          "index": 11,
+          "level": 2,
+          "text": "本文档的目的\t1",
+          "children": []
+        },
+        {
+          "type": "heading",
+          "index": 12,
+          "level": 2,
+          "text": "目标读者和阅读建议\t1",
+          "children": []
+        },
+        {
+          "type": "heading",
+          "index": 13,
+          "level": 2,
+          "text": "术语和缩写词\t1",
+          "children": []
+        },
+        {
+          "type": "heading",
+          "index": 14,
+          "level": 2,
+          "text": "共通描述\t1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "index": 15,
+      "level": 1,
+      "text": "功能描述\t11",
+      "children": [
+        {
+          "type": "heading",
+          "index": 16,
+          "level": 2,
+          "text": "功能综述\t11",
+          "children": []
+        },
+        {
+          "type": "heading",
+          "index": 17,
+          "level": 2,
+          "text": "功能列表\t11",
+          "children": []
+        },
+        {
+          "type": "heading",
+          "index": 18,
+          "level": 2,
+          "text": "产品规则\t11",
+          "children": [
+            {
+              "type": "heading",
+              "index": 19,
+              "level": 3,
+              "text": "产品\t11",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 20,
+          "level": 2,
+          "text": "合同管理\t11",
+          "children": [
+            {
+              "type": "heading",
+              "index": 21,
+              "level": 3,
+              "text": "功能节点概要\t11",
+              "children": []
+            },
+            {
+              "type": "heading",
+              "index": 22,
+              "level": 3,
+              "text": "合同签署\t12",
+              "children": []
+            },
+            {
+              "type": "heading",
+              "index": 23,
+              "level": 3,
+              "text": "合同出入库\t29",
+              "children": []
+            },
+            {
+              "type": "heading",
+              "index": 24,
+              "level": 3,
+              "text": "合同查询\t33",
+              "children": []
+            },
+            {
+              "type": "heading",
+              "index": 25,
+              "level": 3,
+              "text": "担保查询\t35",
+              "children": []
+            },
+            {
+              "type": "heading",
+              "index": 26,
+              "level": 3,
+              "text": "合同种类维护\t37",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 27,
+          "level": 2,
+          "text": "文档中心\t40",
+          "children": [
+            {
+              "type": "heading",
+              "index": 28,
+              "level": 3,
+              "text": "模板管理\t40",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "type": "heading",
+      "index": 29,
+      "level": 1,
+      "text": "概述",
+      "children": [
+        {
+          "type": "heading",
+          "index": 30,
+          "level": 2,
+          "text": "本文档的目的",
+          "children": [
+            {
+              "type": "paragraph",
+              "index": 31,
+              "text": "紧扣国家金融监督管理总局信息科技“十三五”规划中提出的“优化核心系统，提升核心系统组件化和模块化设计水平，具备产品参数灵活配置、交易核算分离等支持能力，使业务更专注于客户服务与产品创新，快速灵活应对会计制度与管理要求的变化”的指引，积极顺应银行经营战略，依附银行业务发展，借鉴银行业成熟管理思路和系统建设经验，打造服务快捷、客户便利、功能完善、安全稳定的核心业务系统，实现银行业系统能力、业务能力、产品能力、运营能力的整体提高。"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 32,
+          "level": 2,
+          "text": "目标读者和阅读建议",
+          "children": [
+            {
+              "type": "paragraph",
+              "index": 33,
+              "text": "本文档的预期目标读者为："
+            },
+            {
+              "type": "paragraph",
+              "index": 34,
+              "text": "银行核心项目群成员"
+            },
+            {
+              "type": "paragraph",
+              "index": 35,
+              "text": "银行业务部门相关人员"
+            },
+            {
+              "type": "paragraph",
+              "index": 36,
+              "text": "公司方需求人员"
+            },
+            {
+              "type": "paragraph",
+              "index": 37,
+              "text": "公司方开发及测试人员"
+            },
+            {
+              "type": "paragraph",
+              "index": 38,
+              "text": "第三方公司相关人员"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 39,
+          "level": 2,
+          "text": "术语和缩写词",
+          "children": [
+            {
+              "type": "table",
+              "index": 40,
+              "row": 2,
+              "col": 3,
+              "data": [
+                [
+                  "缩略词",
+                  "英文描述",
+                  "中文描述"
+                ],
+                [
+                  "",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 41,
+          "level": 2,
+          "text": "共通描述",
+          "children": [
+            {
+              "type": "paragraph",
+              "index": 42,
+              "text": "列表页面查询区域操作通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 43,
+              "text": "列表查询区域-查询按钮"
+            },
+            {
+              "type": "paragraph",
+              "index": 44,
+              "text": "点击列表页面查询区域的“查询”按钮，按录入的查询条件查询数据。查询结果分页展示。默认一页10条记录。特殊场景具体说明。"
+            },
+            {
+              "type": "paragraph",
+              "index": 45,
+              "text": "录入多个条件值时，查询筛选的逻辑是：同时满足条件1、条件2……"
+            },
+            {
+              "type": "paragraph",
+              "index": 46,
+              "text": "“输入币种以外”查询条件说明：查询条件中“XX币种”字段需要必输，查询除了选择的“XX币种”以外的其他币种数据。如提款金额币种选择的是美元，勾选“输入币种以外”后查询，则查询人民币、日元等除了美元的数据。"
+            },
+            {
+              "type": "paragraph",
+              "index": 47,
+              "text": "模糊查询（客户中文名）：可输入任意匹配中文字。例：查询“三菱日联银行（中国）有限公司”，可输入“三菱”或“日联”或“有限公司”等多种录入情况，查询结果对应为“XX三菱XX”，“XX日联XX”，“XX有限公司XX”。系统支持符号查询与英文查询（不区分大小写）。"
+            },
+            {
+              "type": "paragraph",
+              "index": 48,
+              "text": "日期区间查询：可录入起始日期和结束日期。若只录入起始日期，系统筛选目标日期≥起始日期的数据；若只录入结束日期，系统筛选目标日期≤结束日期的数据；若录入起始日期和结束日期，系统筛选数据范围：起始日期≤目标日期≤结束日期的数据。"
+            },
+            {
+              "type": "paragraph",
+              "index": 49,
+              "text": "各个查询条件字段规则详见输入/输出章节各个字段的“校验说明”描述。"
+            },
+            {
+              "type": "paragraph",
+              "index": 50,
+              "text": "列表查询区域-重置按钮"
+            },
+            {
+              "type": "paragraph",
+              "index": 51,
+              "text": "点击列表页面查询区域的“重置”按钮，清空录入的查询条件。"
+            },
+            {
+              "type": "paragraph",
+              "index": 52,
+              "text": "列表查询区域-高级查询按钮"
+            },
+            {
+              "type": "paragraph",
+              "index": 53,
+              "text": "点击列表页面查询区域的“高级查询”（带有展开图标）按钮，展示隐藏的查询条件。点击“高级查询”（带有收缩图标）按钮，隐藏第4行（含）开始的查询条件。查询条件不足4行的“高级查询”默认不展示。"
+            },
+            {
+              "type": "paragraph",
+              "index": 54,
+              "text": "列表通用按钮通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 55,
+              "text": "“新增”通用规则：点击“新增”按钮，根据不同的业务需求设计有两种跳转模式。"
+            },
+            {
+              "type": "paragraph",
+              "index": 56,
+              "text": "弹出向导页面，登记信息后再跳转至详情页面。"
+            },
+            {
+              "type": "paragraph",
+              "index": 57,
+              "text": "直接进入详情页面。具体操作模式在页面操作逻辑中有详述。"
+            },
+            {
+              "type": "paragraph",
+              "index": 58,
+              "text": "“删除”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 59,
+              "text": "列表选择一条记录，点击 “删除”按钮，弹出系统提示框。提示内容：“此操作将永久删除记录，是否继续？”。点击“取消”按钮撤销该删除操作，点击“确定”按钮删除选择的记录。该“删除”操作为物理删除。"
+            },
+            {
+              "type": "paragraph",
+              "index": 60,
+              "text": "“查看”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 61,
+              "text": "列表选择一条记录，点击 “查看”按钮，可查看“新增”时登记的业务要素详情，但通过“查看”按钮进入的详情页面无编辑权限。"
+            },
+            {
+              "type": "paragraph",
+              "index": 62,
+              "text": "“修改”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 63,
+              "text": "列表选择一条记录，点击 “修改”按钮，可修改“新增”等操作时登记的业务要素详情，流程首岗在未提交流程前，可通过“修改”按钮修改已保存的业务信息。"
+            },
+            {
+              "type": "paragraph",
+              "index": 64,
+              "text": "“修正”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 65,
+              "text": "列表选择一条记录，点击 “修正”按钮，可无限制修正“新增”/“修正”/“复用新增”时登记的业务要素详情，修正的业务场景适用于流程审批结束后对于信息的更新。"
+            },
+            {
+              "type": "paragraph",
+              "index": 66,
+              "text": "“复用新增”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 67,
+              "text": "列表选择一条记录，点击 “复用新增”按钮，可复制被选中数据的业务要素详情，用户可编辑需要更新的业务要素。"
+            },
+            {
+              "type": "paragraph",
+              "index": 68,
+              "text": "“导出”按钮范围和导出格式说明"
+            },
+            {
+              "type": "paragraph",
+              "index": 69,
+              "text": "格式说明：点击 “导出”按钮，导出“Excel文件（*.xlsx）”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 70,
+              "text": "导出范围：系统默认导出查询对应的业务详情页面的所有信息（详情内的列表页面除外）。"
+            },
+            {
+              "type": "paragraph",
+              "index": 71,
+              "text": "“新增”、“删除”、“查看”、“修改”、“修正”、“复用新增”的权限默认赋予流程的首个岗位。"
+            },
+            {
+              "type": "paragraph",
+              "index": 72,
+              "text": "“查看”、“导出”的权限可根据业务需求配置。"
+            },
+            {
+              "type": "paragraph",
+              "index": 73,
+              "text": "详情页面通用按钮通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 74,
+              "text": "“暂存” 通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 75,
+              "text": "点击详情页面“暂存”按钮。"
+            },
+            {
+              "type": "paragraph",
+              "index": 76,
+              "text": "系统不校验页面上必输项是否全部已录入。"
+            },
+            {
+              "type": "paragraph",
+              "index": 77,
+              "text": "校验数据是否符合数据规范，含数据格式和数据长度。如金额字段不能暂存数字和小数点以外的内容。假设备注框是200长度时，不能暂存超过200长度的内容。"
+            },
+            {
+              "type": "paragraph",
+              "index": 78,
+              "text": "点击“暂存”按钮后，后台数据暂存成功。"
+            },
+            {
+              "type": "paragraph",
+              "index": 79,
+              "text": "“保存”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 80,
+              "text": "点击详情页面“保存”按钮。"
+            },
+            {
+              "type": "paragraph",
+              "index": 81,
+              "text": "系统首先校验页面上必输项是否已全部录入。没有录入完整时，未录入字段下面红字提示错误信息。"
+            },
+            {
+              "type": "paragraph",
+              "index": 82,
+              "text": "必输项全部录入完成后，系统校验数据是否符合数据规范，含数据格式和数据长度。如金额字段不能保存数字和小数点以外的内容。假设备注框是200长度时，不能保存超过200长度的内容。"
+            },
+            {
+              "type": "paragraph",
+              "index": 83,
+              "text": "完成必输项录入保存且保存校验通过后，页面提示“数据保存成功”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 84,
+              "text": "字段校验详细规则，见输入/输出章节各个字段的“校验说明”描述。"
+            },
+            {
+              "type": "paragraph",
+              "index": 85,
+              "text": "“提交”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 86,
+              "text": "详情页面，登记信息保存后，点击“提交”按钮，可提交流程审批，进入下一岗任务池。"
+            },
+            {
+              "type": "paragraph",
+              "index": 87,
+              "text": "“取消”通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 88,
+              "text": "详情页面，点击“取消”按钮，可关闭当前页面，返回前一页面，“取消”无保存功能。"
+            },
+            {
+              "type": "paragraph",
+              "index": 89,
+              "text": "详情内列表通用规则："
+            },
+            {
+              "type": "paragraph",
+              "index": 90,
+              "text": "弹窗登记模式：参考功能列表“新增”、“修改”、“删除”、“查看”模式。"
+            },
+            {
+              "type": "paragraph",
+              "index": 91,
+              "text": "列表编辑模式：点击“新增”按钮，列表新增一条可编辑数据，录入完成后点击列表后对应的“保存”或“删除”按钮。"
+            },
+            {
+              "type": "paragraph",
+              "index": 92,
+              "text": "公共字段"
+            },
+            {
+              "type": "paragraph",
+              "index": 93,
+              "text": "登记人默认首次新增的用户。"
+            },
+            {
+              "type": "paragraph",
+              "index": 94,
+              "text": "登记机构默认首次新增的用户的所属机构。"
+            },
+            {
+              "type": "paragraph",
+              "index": 95,
+              "text": "登记日期默认首次新增进入详情时的系统日期。"
+            },
+            {
+              "type": "paragraph",
+              "index": 96,
+              "text": "更新人默认流程审批的操作用户。"
+            },
+            {
+              "type": "paragraph",
+              "index": 97,
+              "text": "更新机构默认变更操作用户的所属机构。"
+            },
+            {
+              "type": "paragraph",
+              "index": 98,
+              "text": "更新日期有三种更新场景："
+            },
+            {
+              "type": "paragraph",
+              "index": 99,
+              "text": "默认首次新增进入详情时的系统日期。"
+            },
+            {
+              "type": "paragraph",
+              "index": 100,
+              "text": "流程审批过程中系统日期跟随审批岗位点击“通过”、“驳回”、“否决”、“签收”、“撤回”、“取消”时更新。"
+            },
+            {
+              "type": "paragraph",
+              "index": 101,
+              "text": "日终或接口在更新详情内的业务要素时，会同时更新日期。"
+            },
+            {
+              "type": "paragraph",
+              "index": 102,
+              "text": "公共流程处理逻辑"
+            },
+            {
+              "type": "paragraph",
+              "index": 103,
+              "text": "池模式"
+            },
+            {
+              "type": "image",
+              "index": 104,
+              "original_name": "image1.jpeg",
+              "dimensions": "1297x1248",
+              "file_size": 100389
+            },
+            {
+              "type": "paragraph",
+              "index": 105,
+              "text": "以两岗审批流程为例："
+            },
+            {
+              "type": "paragraph",
+              "index": 106,
+              "text": "第一岗（发起）在菜单：xx管理-xx列表，点击“新增”按钮登记相关信息并保存，点击“提交”按钮发起流程申请（该笔任务流转至第一岗“我的已办”列表中）。"
+            },
+            {
+              "type": "paragraph",
+              "index": 107,
+              "text": "第二岗（审批）在菜单：我的任务-任务池管理，选中需要审批的业务，点击“签收”，任务流转至菜单：我的任务-我的待办。"
+            },
+            {
+              "type": "paragraph",
+              "index": 108,
+              "text": "如果在任务池内当前岗位没有签收任务之前，前一岗位用户可在菜单：我的任务-我的已办，选择该笔任务并点击“撤回”，撤回后的任务进入第一岗“我的待办”列表(撤回为具体用户操作，任务直接进入操作用户的待办)。如果撤回任务的为第一岗，则在回到待办任务列表后，用户点击“审批”按钮后，可修改并“提交”到下一岗位，或者用户点击“取消”按钮，取消后的任务从用户的“我的待办”进入“我的办结”。非第一岗撤回后只能继续提交，不能取消任务。如任务已被“签收”，则任务不可被“撤回”，并流转至签收用户的待办任务。"
+            },
+            {
+              "type": "paragraph",
+              "index": 109,
+              "text": "审批人员可选择“驳回”、“通过”与“否决”："
+            },
+            {
+              "type": "paragraph",
+              "index": 110,
+              "text": "点击“通过”后，如有下一岗位，则任务流转至下一岗位的任务池。如果是流程的最终岗位，流程审批完成。该笔业务办理流程结束，任务则流转至“我的办结”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 111,
+              "text": "点击“驳回”，可指定该岗位之前任意岗位，默认驳回至指定岗位的任务池，由用户再次“签收”后回到“我的待办”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 112,
+              "text": "点击“否决”，代表流程审批没有通过且流程结束。"
+            },
+            {
+              "type": "paragraph",
+              "index": 113,
+              "text": "人模式"
+            },
+            {
+              "type": "image",
+              "index": 114,
+              "original_name": "image2.png",
+              "dimensions": "1299x1101",
+              "file_size": 157289
+            },
+            {
+              "type": "paragraph",
+              "index": 115,
+              "text": "与池模式差异："
+            },
+            {
+              "type": "paragraph",
+              "index": 116,
+              "text": "任意岗位在提交流程时，系统弹出用户选择框，选择指定用户后才可完成提交操作，并直接进入下一岗“我的任务-我的待办”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 117,
+              "text": "除了首岗，任意岗位“驳回”指定岗位的任务后，任务流转至该指定岗位的“我的任务-我的待办”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 118,
+              "text": "“驳回”场景中，只能驳回至用户指定岗位提交人的待办任务。"
+            },
+            {
+              "type": "paragraph",
+              "index": 119,
+              "text": "审批中的用户在“我的任务”点击“审批”按钮审批通过后，前一岗位不能“撤回”任务。"
+            },
+            {
+              "type": "paragraph",
+              "index": 120,
+              "text": "流程状态：待发起-审批中-已通过/已取消/已否决。流程第一岗在创建至提交成功前状态为待发起，流程在最后一岗“通过”前状态为审批中，通过后为已通过。第一岗主动撤回后或被驳回并“取消”流程，状态为已取消。流程被任意审批岗“否决”，流程结束，状态为“已否决”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 121,
+              "text": "任务池状态（仅池模式）：待签收-已签收。任务池状态为独立状态。任意岗位提交后，任务进入任务池。任务池状态在未签收前为“待签收”，签收后状态为“已签收”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 122,
+              "text": "针对池模式，除第一岗是固定用户提交外，其他任意岗都是默认任务池模式。"
+            },
+            {
+              "type": "paragraph",
+              "index": 123,
+              "text": "信贷功能在没有特殊说明下默认都是池模式流程，流程引擎支持配置池模式与人模式混合流程。"
+            },
+            {
+              "type": "paragraph",
+              "index": 124,
+              "text": "小留痕"
+            },
+            {
+              "type": "paragraph",
+              "index": 125,
+              "text": "在流程审批中，流程中的任意岗位选择“驳回”后，被选择驳回的岗位在更新业务要素后重新提交流程，审批人员可查看字段修改痕迹，在被修改的字段后带有红色小图标，鼠标指向图标可展示痕迹列表（详情中的列表被修改后在列表标题中只展示图标）。"
+            },
+            {
+              "type": "image",
+              "index": 126,
+              "original_name": "image4.png",
+              "dimensions": "1295x199",
+              "file_size": 9886
+            },
+            {
+              "type": "paragraph",
+              "index": 127,
+              "text": "说明"
+            },
+            {
+              "type": "paragraph",
+              "index": 128,
+              "text": "详情界面字段带有标识的文本框，用户可点击图标，系统弹出对应数据查询的列表，用户通过查询并选择数据返显至详情关联业务字段（例“客户编号”文本框带有，客户名称字段不可编辑可返显）。"
+            },
+            {
+              "type": "paragraph",
+              "index": 129,
+              "text": "客户编号字段支持用户点击“”，弹出客户查询框，查询条件支持客户编号（精确查询）与客户名称（模糊查询），列表返回从核心客户查询返回的信息，用户选取一条数据点击“确定”后，数据返显至对应的业务详情页面相关的客户信息字段。"
+            },
+            {
+              "type": "paragraph",
+              "index": 130,
+              "text": "详情页面展示通用逻辑"
+            },
+            {
+              "type": "paragraph",
+              "index": 131,
+              "text": "在详情页面中，信息以一行两列的形式呈现，若字段内容过长，则应以一行一列或多行一列的方式展示。例如，“房地产贷款分类”字段，尽管为下拉框形式，但因其码值描述较长，故应单独占据一行展示。"
+            },
+            {
+              "type": "paragraph",
+              "index": 132,
+              "text": "当详情页面中的大文本字段输入内容超过三行时，大文本框应仅保留垂直滚动条，无需水平滚动条。例如，“DDN 用途”字段，若内容超过三行，则应通过垂直滚动条来查看全部内容。"
+            },
+            {
+              "type": "paragraph",
+              "index": 133,
+              "text": "对于详情页面中涉及码值的特殊字段，如“Purpose Code”，展示时应同时包含码值代码及其描述，格式为“码值代码: 码值描述”，例如“01: EQUIP.(GENERAL,CAPITAL EXPEND |TURE)”，其中分隔符应使用半角冒号后跟半角空格“: ”。"
+            },
+            {
+              "type": "paragraph",
+              "index": 134,
+              "text": "左侧导航树图页面通用逻辑"
+            },
+            {
+              "type": "paragraph",
+              "index": 135,
+              "text": "左侧导航树图将动态跟随右侧页面的滚动而滚动，确保在右侧页面向下滚动时，导航树图始终可见。"
+            },
+            {
+              "type": "paragraph",
+              "index": 136,
+              "text": "通用字段说明"
+            },
+            {
+              "type": "paragraph",
+              "index": 137,
+              "text": "非日元金额字段将保留两位小数，而日元金额字段则不保留小数位。金额字段千分位分隔。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "index": 138,
+      "level": 1,
+      "text": "功能描述",
+      "children": [
+        {
+          "type": "heading",
+          "index": 139,
+          "level": 2,
+          "text": "功能综述",
+          "children": [
+            {
+              "type": "paragraph",
+              "index": 140,
+              "text": "合同管理包含合同签署、合同出入库功能，具体包括新增、重述、变更、修正、事后删除、入库、出库。"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 141,
+          "level": 2,
+          "text": "功能列表",
+          "children": [
+            {
+              "type": "table",
+              "index": 142,
+              "row": 7,
+              "col": 3,
+              "data": [
+                [
+                  "功能模块",
+                  "功能名称",
+                  "备注"
+                ],
+                [
+                  "合同管理",
+                  "合同签署",
+                  ""
+                ],
+                [
+                  "合同管理",
+                  "合同出入库",
+                  ""
+                ],
+                [
+                  "合同管理",
+                  "合同查询",
+                  ""
+                ],
+                [
+                  "合同管理",
+                  "担保查询",
+                  ""
+                ],
+                [
+                  "合同管理",
+                  "合同种类维护",
+                  ""
+                ],
+                [
+                  "文档中心",
+                  "模板管理",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 143,
+          "level": 2,
+          "text": "产品规则",
+          "children": [
+            {
+              "type": "heading",
+              "index": 144,
+              "level": 3,
+              "text": "产品",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 145,
+                  "level": 4,
+                  "text": "产品基础属性",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 146,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 147,
+                  "level": 4,
+                  "text": "产品业务处理规则",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 148,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 149,
+          "level": 2,
+          "text": "合同管理",
+          "children": [
+            {
+              "type": "heading",
+              "index": 150,
+              "level": 3,
+              "text": "功能节点概要",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "index": 151,
+                  "text": "合同签署"
+                },
+                {
+                  "type": "image",
+                  "index": 152,
+                  "original_name": "image8.png",
+                  "dimensions": "1039x549",
+                  "file_size": 20622
+                },
+                {
+                  "type": "paragraph",
+                  "index": 153,
+                  "text": "合同签署时，关联额度后，从额度模块获取Borrower Code、Booking Office、Maximum Term等合同所需信息，合同签署审批通过后同步更新额度模块的合同信息。"
+                },
+                {
+                  "type": "paragraph",
+                  "index": 154,
+                  "text": "合同出入库"
+                },
+                {
+                  "type": "image",
+                  "index": 155,
+                  "original_name": "image9.png",
+                  "dimensions": "1147x416",
+                  "file_size": 24715
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "index": 156,
+              "level": 3,
+              "text": "合同签署",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 157,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 158,
+                      "text": "合同签署功能涵盖贷款合同、委托贷款合同、Pooling合同、其他合同、担保合同的新增、重述、修正、变更、事后删除。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 159,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 160,
+                      "text": "参见共通描述中的公共流程处理逻辑。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 161,
+                      "text": "新增/变更标版的贷款合同、其他合同、担保合同：由信贷前台Maker发起，信贷前台Checker、信贷中台Maker、信贷中台Checker审批，审批流程采用池模式。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 162,
+                      "text": "新增/变更非标版的贷款合同、其他合同、担保合同，新增/变更Pooling合同、委托贷款合同：由信贷中台Maker发起，信贷中台Checker审批，审批流程采用池模式。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 163,
+                      "text": "修正/事后删除合同：由信贷中台Maker 发起，信贷中台Checker审批，审批流程采用池模式。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 164,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 165,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 166,
+                      "text": "合同签署"
+                    },
+                    {
+                      "type": "image",
+                      "index": 167,
+                      "original_name": "image10.png",
+                      "dimensions": "1551x491",
+                      "file_size": 51097
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 168,
+                      "text": "新增贷款合同"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 169,
+                      "text": "新增贷款合同向导"
+                    },
+                    {
+                      "type": "image",
+                      "index": 170,
+                      "original_name": "image11.png",
+                      "dimensions": "1203x299",
+                      "file_size": 24308
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 171,
+                      "text": "新增贷款合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 172,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 173,
+                      "original_name": "image12.png",
+                      "dimensions": "1428x278",
+                      "file_size": 26040
+                    },
+                    {
+                      "type": "image",
+                      "index": 174,
+                      "original_name": "image13.png",
+                      "dimensions": "1425x713",
+                      "file_size": 59268
+                    },
+                    {
+                      "type": "image",
+                      "index": 175,
+                      "original_name": "image14.png",
+                      "dimensions": "1426x656",
+                      "file_size": 56619
+                    },
+                    {
+                      "type": "image",
+                      "index": 176,
+                      "original_name": "image15.png",
+                      "dimensions": "1418x130",
+                      "file_size": 11789
+                    },
+                    {
+                      "type": "image",
+                      "index": 177,
+                      "original_name": "image16.png",
+                      "dimensions": "1418x194",
+                      "file_size": 24512
+                    },
+                    {
+                      "type": "image",
+                      "index": 178,
+                      "original_name": "image17.png",
+                      "dimensions": "1510x131",
+                      "file_size": 6667
+                    },
+                    {
+                      "type": "image",
+                      "index": 179,
+                      "original_name": "image18.png",
+                      "dimensions": "1534x183",
+                      "file_size": 9847
+                    },
+                    {
+                      "type": "image",
+                      "index": 180,
+                      "original_name": "image19.png",
+                      "dimensions": "1417x682",
+                      "file_size": 50658
+                    },
+                    {
+                      "type": "image",
+                      "index": 181,
+                      "original_name": "image20.png",
+                      "dimensions": "1399x342",
+                      "file_size": 17946
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 182,
+                      "text": "查询额度"
+                    },
+                    {
+                      "type": "image",
+                      "index": 183,
+                      "original_name": "image21.png",
+                      "dimensions": "1444x455",
+                      "file_size": 30633
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 184,
+                      "text": "三个办法"
+                    },
+                    {
+                      "type": "image",
+                      "index": 185,
+                      "original_name": "image22.png",
+                      "dimensions": "1452x736",
+                      "file_size": 85303
+                    },
+                    {
+                      "type": "image",
+                      "index": 186,
+                      "original_name": "image23.png",
+                      "dimensions": "1452x293",
+                      "file_size": 24044
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 187,
+                      "text": "先决条件"
+                    },
+                    {
+                      "type": "image",
+                      "index": 188,
+                      "original_name": "image24.png",
+                      "dimensions": "1461x610",
+                      "file_size": 37857
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 189,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 190,
+                      "original_name": "image25.png",
+                      "dimensions": "1460x151",
+                      "file_size": 13926
+                    },
+                    {
+                      "type": "image",
+                      "index": 191,
+                      "original_name": "image26.png",
+                      "dimensions": "1457x506",
+                      "file_size": 42975
+                    },
+                    {
+                      "type": "image",
+                      "index": 192,
+                      "original_name": "image27.png",
+                      "dimensions": "1457x360",
+                      "file_size": 28949
+                    },
+                    {
+                      "type": "image",
+                      "index": 193,
+                      "original_name": "image28.png",
+                      "dimensions": "1468x584",
+                      "file_size": 41054
+                    },
+                    {
+                      "type": "image",
+                      "index": 194,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 195,
+                      "text": "Tranche"
+                    },
+                    {
+                      "type": "image",
+                      "index": 196,
+                      "original_name": "image30.png",
+                      "dimensions": "1518x304",
+                      "file_size": 20176
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 197,
+                      "text": "新增Tranche"
+                    },
+                    {
+                      "type": "image",
+                      "index": 198,
+                      "original_name": "image31.png",
+                      "dimensions": "1358x654",
+                      "file_size": 57710
+                    },
+                    {
+                      "type": "image",
+                      "index": 199,
+                      "original_name": "image32.png",
+                      "dimensions": "1359x489",
+                      "file_size": 36857
+                    },
+                    {
+                      "type": "image",
+                      "index": 200,
+                      "original_name": "image33.png",
+                      "dimensions": "1356x362",
+                      "file_size": 28987
+                    },
+                    {
+                      "type": "image",
+                      "index": 201,
+                      "original_name": "image34.png",
+                      "dimensions": "1356x300",
+                      "file_size": 15315
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 202,
+                      "text": "新增委托贷款合同"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 203,
+                      "text": "新增委托贷款合同向导"
+                    },
+                    {
+                      "type": "image",
+                      "index": 204,
+                      "original_name": "image35.png",
+                      "dimensions": "1199x255",
+                      "file_size": 13404
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 205,
+                      "text": "新增个别委托贷款合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 206,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 207,
+                      "original_name": "image36.png",
+                      "dimensions": "1427x714",
+                      "file_size": 51953
+                    },
+                    {
+                      "type": "image",
+                      "index": 208,
+                      "original_name": "image37.png",
+                      "dimensions": "1423x313",
+                      "file_size": 20956
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 209,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 210,
+                      "original_name": "image38.png",
+                      "dimensions": "1476x575",
+                      "file_size": 35750
+                    },
+                    {
+                      "type": "image",
+                      "index": 211,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 212,
+                      "text": "新增集团委托贷款合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 213,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 214,
+                      "original_name": "image39.png",
+                      "dimensions": "1429x716",
+                      "file_size": 51490
+                    },
+                    {
+                      "type": "image",
+                      "index": 215,
+                      "original_name": "image40.png",
+                      "dimensions": "1432x253",
+                      "file_size": 15223
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 216,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 217,
+                      "original_name": "image41.png",
+                      "dimensions": "1480x574",
+                      "file_size": 35857
+                    },
+                    {
+                      "type": "image",
+                      "index": 218,
+                      "original_name": "image42.png",
+                      "dimensions": "1470x251",
+                      "file_size": 27108
+                    },
+                    {
+                      "type": "image",
+                      "index": 219,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 220,
+                      "text": "新增Pooling合同"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 221,
+                      "text": "新增Pooling合同向导"
+                    },
+                    {
+                      "type": "image",
+                      "index": 222,
+                      "original_name": "image43.png",
+                      "dimensions": "1199x263",
+                      "file_size": 9712
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 223,
+                      "text": "新增Pooling合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 224,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 225,
+                      "original_name": "image44.png",
+                      "dimensions": "1424x575",
+                      "file_size": 39806
+                    },
+                    {
+                      "type": "image",
+                      "index": 226,
+                      "original_name": "image45.png",
+                      "dimensions": "1424x249",
+                      "file_size": 16568
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 227,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 228,
+                      "original_name": "image46.png",
+                      "dimensions": "1469x563",
+                      "file_size": 35692
+                    },
+                    {
+                      "type": "image",
+                      "index": 229,
+                      "original_name": "image47.png",
+                      "dimensions": "1466x261",
+                      "file_size": 26713
+                    },
+                    {
+                      "type": "image",
+                      "index": 230,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 231,
+                      "text": "新增其他合同"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 232,
+                      "text": "新增其他合同向导"
+                    },
+                    {
+                      "type": "image",
+                      "index": 233,
+                      "original_name": "image48.png",
+                      "dimensions": "1196x262",
+                      "file_size": 15347
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 234,
+                      "text": "新增其他合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 235,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 236,
+                      "original_name": "image49.png",
+                      "dimensions": "1428x666",
+                      "file_size": 46762
+                    },
+                    {
+                      "type": "image",
+                      "index": 237,
+                      "original_name": "image50.png",
+                      "dimensions": "1424x356",
+                      "file_size": 21177
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 238,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 239,
+                      "original_name": "image51.png",
+                      "dimensions": "1465x563",
+                      "file_size": 36400
+                    },
+                    {
+                      "type": "image",
+                      "index": 240,
+                      "original_name": "image52.png",
+                      "dimensions": "1464x239",
+                      "file_size": 23865
+                    },
+                    {
+                      "type": "image",
+                      "index": 241,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 242,
+                      "text": "新增担保合同"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 243,
+                      "text": "新增担保合同向导"
+                    },
+                    {
+                      "type": "image",
+                      "index": 244,
+                      "original_name": "image53.png",
+                      "dimensions": "1194x264",
+                      "file_size": 15155
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 245,
+                      "text": "新增担保合同详情"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 246,
+                      "text": "基本信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 247,
+                      "original_name": "image54.png",
+                      "dimensions": "1428x440",
+                      "file_size": 26828
+                    },
+                    {
+                      "type": "image",
+                      "index": 248,
+                      "original_name": "image55.png",
+                      "dimensions": "1423x198",
+                      "file_size": 20405
+                    },
+                    {
+                      "type": "image",
+                      "index": 249,
+                      "original_name": "image56.png",
+                      "dimensions": "1425x506",
+                      "file_size": 46233
+                    },
+                    {
+                      "type": "image",
+                      "index": 250,
+                      "original_name": "image56.png",
+                      "dimensions": "1425x506",
+                      "file_size": 46233
+                    },
+                    {
+                      "type": "image",
+                      "index": 251,
+                      "original_name": "image57.png",
+                      "dimensions": "1430x247",
+                      "file_size": 16315
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 252,
+                      "text": "补充信息"
+                    },
+                    {
+                      "type": "image",
+                      "index": 253,
+                      "original_name": "image58.png",
+                      "dimensions": "1462x624",
+                      "file_size": 38589
+                    },
+                    {
+                      "type": "image",
+                      "index": 254,
+                      "original_name": "image59.png",
+                      "dimensions": "1467x555",
+                      "file_size": 45076
+                    },
+                    {
+                      "type": "image",
+                      "index": 255,
+                      "original_name": "image29.png",
+                      "dimensions": "1461x288",
+                      "file_size": 28622
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 256,
+                      "text": "修正"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 257,
+                      "text": "信贷中台Maker进入的画面与原合同画面的区别："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 258,
+                      "text": "不可修正字段详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“贷款合同”、“委托贷款合同”、“Pooling合同”、“其他合同”、“担保合同”sheet页。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 259,
+                      "text": "补充信息中增加字段“Signing Date”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 260,
+                      "original_name": "image60.png",
+                      "dimensions": "1378x110",
+                      "file_size": 3250
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 261,
+                      "text": "信贷中台Checker进入的画面与信贷中台Maker进入画面的区别：补充信息-现有合同前面增加分组“修正内容”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 262,
+                      "original_name": "image61.png",
+                      "dimensions": "1298x181",
+                      "file_size": 5197
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 263,
+                      "text": "变更"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 264,
+                      "text": "变更合同的画面与新增合同画面的区别："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 265,
+                      "text": "不可变更字段详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“贷款合同”、“委托贷款合同”、“Pooling合同”、“其他合同”、“担保合同”sheet页。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 266,
+                      "text": "基本信息（所有合同种类）中增加字段“Amendment Date”:"
+                    },
+                    {
+                      "type": "image",
+                      "index": 267,
+                      "original_name": "image62.png",
+                      "dimensions": "1411x57",
+                      "file_size": 1888
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 268,
+                      "text": "合同种类为“贷款合同”时，补充信息-保存按钮上方增加分组“现有合同”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 269,
+                      "original_name": "image63.png",
+                      "dimensions": "1451x284",
+                      "file_size": 24633
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 270,
+                      "text": "补充信息中增加字段“条件变更”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 271,
+                      "original_name": "image64.png",
+                      "dimensions": "1453x77",
+                      "file_size": 2309
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 272,
+                      "text": "合同种类为“委托贷款合同”时，补充信息-保存按钮上面增加分组“现有合同”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 273,
+                      "original_name": "image65.png",
+                      "dimensions": "1517x281",
+                      "file_size": 25269
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 274,
+                      "text": "合同种类为“Pooling合同”时，补充信息-保存按钮上方增加分组“现有合同”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 275,
+                      "original_name": "image66.png",
+                      "dimensions": "1459x267",
+                      "file_size": 19592
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 276,
+                      "text": "合同种类为“其他合同”时，补充信息-保存按钮上方增加分组“现有合同”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 277,
+                      "original_name": "image67.png",
+                      "dimensions": "1463x263",
+                      "file_size": 19746
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 278,
+                      "text": "合同种类为“担保合同”时，补充信息-保存按钮上方增加分组“现有担保合同”："
+                    },
+                    {
+                      "type": "image",
+                      "index": 279,
+                      "original_name": "image68.png",
+                      "dimensions": "1561x261",
+                      "file_size": 26738
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 280,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 281,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“合同签署”、“贷款合同”、“委托贷款合同”、“Pooling合同”、“其他合同”、“担保合同”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 282,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 283,
+                      "text": "新增合同：在合同签署画面，直接点击按钮【新增】进入新增向导画面，在新增向导画面，根据选择的合同种类不同进入相应的新增合同详情画面。如：新增向导中合同种类选择贷款合同，点击按钮【确定】后，画面跳转至新增贷款合同详情。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 284,
+                      "text": "修正合同、变更合同、事后删除合同：均需先选择一条记录，再点击按钮，进入相应的合同详情画面，完成相应操作。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 285,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 286,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 287,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 288,
+                      "text": "页面"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 289,
+                      "text": "合同签署：列表中展示所有合同记录。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 290,
+                      "text": "新增向导-按钮【确定】："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 291,
+                      "text": "当合同种类为“贷款合同”、“其他合同”、“担保合同”，且Contract Form = Bank Form时，若操作人为信贷中台Maker，阻断性提示“不允许新增标版的贷款合同、其他合同、担保合同”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 292,
+                      "text": "当合同种类为“贷款合同”、“其他合同”、“担保合同”，且Contract Form = Customer Form时，若操作人为信贷前台Maker，阻断性提示“不允许新增非标版的贷款合同、其他合同、担保合同”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 293,
+                      "text": "当合同种类为“委托贷款合同”、“Pooling合同”时，若操作人为信贷前台Maker，阻断性提示“不允许新增委托贷款合同、Pooling合同”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 294,
+                      "text": "合同Series No.生成时点：在合同签署-新增向导画面，点击按钮【确定】跳转到新增合同详情画面时。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 295,
+                      "text": "查询额度："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 296,
+                      "text": "列表中仅展示额度状态为已创建、已建立、待生效、生效、冻结的主额度或切分额度；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 297,
+                      "text": "按钮【确定】："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 298,
+                      "text": "若当前合同的“合同级别”=“Master Agreement”，且“是否带借据”=“否”，且所选额度为主额度，且额度编号=重述Series No.关联的额度编号时，阻断性提示“主额度项下仅可关联一个主合同，请重新选择额度”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 299,
+                      "text": "若“合同级别”=“Master Agreement”，且当前合同的“是否带借据”为空，且所选额度为主额度，且额度编号=重述Series No.关联的额度编号时，阻断性提示“请先选择是否带借据”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 300,
+                      "text": "若当前合同的“合同级别”=“Master Agreement”，“是否重述”=“否”，所选额度为主额度时，校验该主额度项下无关联的主合同，否则阻断性提示“主额度项下仅可关联一个主合同，请重新选择额度”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 301,
+                      "text": "新增、修正、变更、事后删除：采号规则及操作规则，详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“合同签署操作说明”sheet页。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 302,
+                      "text": "修正内容"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 303,
+                      "text": "展示场景：仅当信贷中台Maker发起合同修正，信贷中台Checker审批时展示。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 304,
+                      "text": "列表数据：展示修正合同流程数据与原合同数据不同的所有项目信息。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 305,
+                      "text": "修正流程的审批状态为“已通过”时，更新合同信息为修正后的信息。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 306,
+                      "text": "现有合同/现有担保合同："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 307,
+                      "text": "展示场景：合同存在变更历史时。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 308,
+                      "text": "列表数据：展示审批状态为“已通过”的变更合同的历史信息。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 309,
+                      "text": "按钮【合同预览】：仅当所选合同的“Contract Form”为“Bank Form”时，【合同预览】按钮允许操作，否则阻断性提示“仅支持预览标版合同”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 310,
+                      "text": "模板版本使用首岗提交时点的启用的版本："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 311,
+                      "text": "若流程被驳回，模板版本不变。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 312,
+                      "text": "若流程被撤回，首岗再次提交时，模板版本更新"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 313,
+                      "text": "按钮【其他合同预览】：仅当所选合同的“合同种类”为“其他合同”且“其他模板”有值时，【其他合同预览】按钮允许操作，否则阻断性提示“不存在其他模板”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 314,
+                      "text": "合同签署流程的审批状态更新为“已通过”之后："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 315,
+                      "text": "初始化合同的出入库状态为“未入库”；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 316,
+                      "text": "更新额度模块的合同信息、担保合同信息（详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“贷款合同”、“其他合同”、“担保合同”sheet页）。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 317,
+                      "text": "定时任务"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 318,
+                      "text": "满足以下所有条件的合同，当合同的Start Date等于系统日期时，当天00:00将未结清借据关联的合同编号从 “重述Series No.”更新为 “Series No.”："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 319,
+                      "text": "合同种类为“贷款合同”或“其他合同”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 320,
+                      "text": "重述Series No.不为空"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 321,
+                      "text": "是否带借据为“是”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 322,
+                      "text": "审批状态为“已通过”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 323,
+                      "text": "当变更合同的Amendment Date等于系统日期时，当天00:00将未结清借据关联的合同编号从 “Last Series No.”更新为 “Series No.”。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 324,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 325,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 326,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 327,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "index": 328,
+              "level": 3,
+              "text": "合同出入库",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 329,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 330,
+                      "text": "本功能支持合同签署流程审批通过的合同进行合同入库、合同出库操作，对于正式入库后需要取消入库的合同，可通过出库操作选择出库原因为取消入库完成；对于正式出库后需要取消出库的合同，可通过入库操作选择入库原因为取消出库完成。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 331,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 332,
+                      "text": "参见共通描述中的公共流程处理逻辑。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 333,
+                      "text": "合同入库由信贷中台Maker发起，信贷中台Checker审批，审批流程采用池模式。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 334,
+                      "text": "合同出库由信贷中台Maker发起，信贷中台Checker审批，审批流程采用池模式。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 335,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 336,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 337,
+                      "text": "合同出入库"
+                    },
+                    {
+                      "type": "image",
+                      "index": 338,
+                      "original_name": "image69.png",
+                      "dimensions": "1546x416",
+                      "file_size": 42205
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 339,
+                      "text": "新增入库"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 340,
+                      "text": "入库向导-查询合同"
+                    },
+                    {
+                      "type": "image",
+                      "index": 341,
+                      "original_name": "image70.png",
+                      "dimensions": "1441x434",
+                      "file_size": 29626
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 342,
+                      "text": "新增合同入库详情"
+                    },
+                    {
+                      "type": "image",
+                      "index": 343,
+                      "original_name": "image71.png",
+                      "dimensions": "1433x620",
+                      "file_size": 31441
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 344,
+                      "text": "新增出库"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 345,
+                      "text": "出库向导-查询合同"
+                    },
+                    {
+                      "type": "image",
+                      "index": 346,
+                      "original_name": "image72.png",
+                      "dimensions": "1450x438",
+                      "file_size": 29687
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 347,
+                      "text": "新增合同出库详情"
+                    },
+                    {
+                      "type": "image",
+                      "index": 348,
+                      "original_name": "image73.png",
+                      "dimensions": "1433x623",
+                      "file_size": 31156
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 349,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 350,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“合同出入库”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 351,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "table",
+                      "index": 352,
+                      "row": 5,
+                      "col": 3,
+                      "data": [
+                        [
+                          "当前画面",
+                          "操作说明",
+                          "下一画面"
+                        ],
+                        [
+                          "合同出入库",
+                          "点击按钮【入库】",
+                          "入库向导-查询合同"
+                        ],
+                        [
+                          "入库向导-查询合同",
+                          "选择合同后点击按钮【确定】",
+                          "新增合同入库详情"
+                        ],
+                        [
+                          "合同出入库",
+                          "点击按钮【出库】",
+                          "出库向导-查询合同"
+                        ],
+                        [
+                          "出库向导-查询合同",
+                          "选择合同后点击按钮【确定】",
+                          "新增合同出库详情"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 353,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 354,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 355,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 356,
+                      "text": "入库"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 357,
+                      "text": "入库向导-查询合同：列表中仅展示满足以下任意一条的合同："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 358,
+                      "text": "合同签署的审批状态为“已通过”，且合同的出入库状态为“未入库”，且合同的sub号等于同一主参号已入库的最大sub号+1、且合同不存在入库或出库的审批状态为“待发起”、“审批中”的合同（如：合同存在版本676LN000001[已入库]、676LN000001-001[已入库]、676LN000001-002[未入库]、676LN000001-003[未入库]，符合条件的合同为676LN000001-002）。。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 359,
+                      "text": "合同签署的审批状态为“已通过”，且合同的出入库状态为“已出库”，且合同的sub号等于同一主参号的最大sub号、且合同不存在入库或出库的审批状态为“待发起”、“审批中”的合同（如：合同存在版本676LN000001[已出库]、676LN000001-001[已出库]、676LN000001-002[已出库]、676LN000001-003[已出库]，符合条件的合同为676LN000001-003）。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 360,
+                      "text": "入库向导-查询合同-按钮【确定】："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 361,
+                      "text": "若所选合同的出入库状态为“未入库”时，点击按钮【确定】后，系统自动默认入库原因为“正式入库”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 362,
+                      "text": "若所选合同的出入库状态为“已出库”时，点击按钮【确定】后，系统自动默认入库原因为“出库取消”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 363,
+                      "text": "合同入库流程的审批状态更新为“已通过”后："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 364,
+                      "text": "若所选合同的出入库状态为“未入库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 365,
+                      "text": "出入库状态由“未入库”更新为“已入库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 366,
+                      "text": "若所选合同的出入库状态为“已出库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 367,
+                      "text": "出入库状态由“已出库”更新为“已入库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 368,
+                      "text": "更新Released Date为空"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 369,
+                      "text": "出库"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 370,
+                      "text": "出库向导-查询合同：列表中仅展示满足以下任意一条的合同："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 371,
+                      "text": "合同签署的审批状态为“已通过”，且合同的出入库状态为“已入库”，且Series No.的sub号在同一主参号中为最大，且合同项下借据已全部结清，且合同不存在入库或出库的审批状态为“待发起”、“审批中”的合同（如：合同存在版本676LN000001[已入库]、676LN000001-001[已入库]、676LN000001-002[已入库]，符合条件的合同为676LN000001-002）。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 372,
+                      "text": "合同签署的审批状态为“已通过”，且合同的出入库状态为“已入库”，且Series No.的sub号在同一主参号中为已入库的最大，且合同不存在入库或出库的审批状态为“待发起”、“审批中”的合同（如：合同存在版本676LN000001[已入库]、676LN000001-001[已入库]、676LN000001-002[已入库] 、676LN000001-003[未入库]，符合条件的合同为676LN000001-002）。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 373,
+                      "text": "合同出库流程的审批状态更新为“已通过”后："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 374,
+                      "text": "若出库原因为“正式出库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 375,
+                      "text": "出入库状态由“已入库”更新为“已出库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 376,
+                      "text": "若出库原因为“入库取消”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 377,
+                      "text": "出入库状态由“已入库”更新为“未入库”"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 378,
+                      "text": "更新Storage Starting Date为空"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 379,
+                      "text": "合同项下借据已全部结清场景包括："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 380,
+                      "text": "合同的未结清借据已转移到Next Series No.合同。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 381,
+                      "text": "合同及其子合同项下借据均已全部结清。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 382,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 383,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 384,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 385,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "index": 386,
+              "level": 3,
+              "text": "合同查询",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 387,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 388,
+                      "text": "以合同为维度展示签署流程审批通过的贷款合同、委托贷款合同、Pooling合同、其他合同信息，提供查看、导出功能。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 389,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 390,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 391,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 392,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 393,
+                      "text": "合同查询"
+                    },
+                    {
+                      "type": "image",
+                      "index": 394,
+                      "original_name": "image74.png",
+                      "dimensions": "1576x734",
+                      "file_size": 49193
+                    },
+                    {
+                      "type": "image",
+                      "index": 395,
+                      "original_name": "image75.png",
+                      "dimensions": "1383x123",
+                      "file_size": 11386
+                    },
+                    {
+                      "type": "image",
+                      "index": 396,
+                      "original_name": "image76.png",
+                      "dimensions": "1380x120",
+                      "file_size": 10117
+                    },
+                    {
+                      "type": "image",
+                      "index": 397,
+                      "original_name": "image77.png",
+                      "dimensions": "921x120",
+                      "file_size": 7152
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 398,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 399,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“合同查询”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 400,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "table",
+                      "index": 401,
+                      "row": 3,
+                      "col": 3,
+                      "data": [
+                        [
+                          "当前画面",
+                          "操作说明",
+                          "下一画面"
+                        ],
+                        [
+                          "合同查询",
+                          "选择合同后点击按钮【查看】",
+                          "同合同签署画面中点击按钮【查看】进入的画面"
+                        ],
+                        [
+                          "合同查询",
+                          "点击按钮【导出】",
+                          "当前画面"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 402,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 403,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 404,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 405,
+                      "text": "页面"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 406,
+                      "text": "合同查询：列表中仅展示合同签署的审批状态为已通过，且合同种类为贷款合同、委托贷款合同、Pooling合同、其他合同的合同，但不包含操作标识为事后删除的合同。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 407,
+                      "text": "点击按钮【导出】时，校验查询结果列表中数据的查询条件包含“合同种类”，否则阻断性提示“导出前请先选择合同种类并完成查询”。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 408,
+                      "text": "批处理"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 409,
+                      "text": "合同已用金额、合同可用金额："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 410,
+                      "text": "每日日终批量计算并更新，计算规则详见《CCBP_需求规格说明书_信贷系统_额度管理.docx》。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 411,
+                      "text": "仅Facility Amount > 0，且合同级别 = Master Agreement的合同参与计算，不涉及计算的合同默认空。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 412,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 413,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 414,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 415,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "index": 416,
+              "level": 3,
+              "text": "担保查询",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 417,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 418,
+                      "text": "以合同为维度展示签署流程审批通过的担保合同信息，提供查看、导出功能。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 419,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 420,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 421,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 422,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 423,
+                      "text": "担保查询"
+                    },
+                    {
+                      "type": "image",
+                      "index": 424,
+                      "original_name": "image78.png",
+                      "dimensions": "1568x657",
+                      "file_size": 41737
+                    },
+                    {
+                      "type": "image",
+                      "index": 425,
+                      "original_name": "image79.png",
+                      "dimensions": "1566x652",
+                      "file_size": 41456
+                    },
+                    {
+                      "type": "image",
+                      "index": 426,
+                      "original_name": "image80.png",
+                      "dimensions": "1570x656",
+                      "file_size": 40355
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 427,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 428,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“担保查询”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 429,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "table",
+                      "index": 430,
+                      "row": 3,
+                      "col": 3,
+                      "data": [
+                        [
+                          "当前画面",
+                          "操作说明",
+                          "下一画面"
+                        ],
+                        [
+                          "担保查询",
+                          "选择担保合同后点击按钮【查看】",
+                          "同合同签署画面中点击按钮【查看】进入的画面"
+                        ],
+                        [
+                          "担保查询",
+                          "点击按钮【导出】",
+                          "当前画面"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 431,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 432,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 433,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 434,
+                      "text": "担保查询：列表中仅展示合同签署的审批状态为已通过，且合同种类为担保合同的合同，但不包含操作标识为事后删除的合同。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 435,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 436,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 437,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 438,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "index": 439,
+              "level": 3,
+              "text": "合同种类维护",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 440,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 441,
+                      "text": "该功能用于贷款合同、其他合同、委托贷款合同、Pooling合同、担保合同项下的合同种类代码及合同种类名称的维护。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 442,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 443,
+                      "text": "参见共通描述中的公共流程处理逻辑。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 444,
+                      "text": "新增、修正合同种类维护：由事务部Maker发起，事务部Checker审批，审批流程采用池模式。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 445,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 446,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 447,
+                      "text": "合同种类维护"
+                    },
+                    {
+                      "type": "image",
+                      "index": 448,
+                      "original_name": "image81.png",
+                      "dimensions": "1544x374",
+                      "file_size": 32164
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 449,
+                      "text": "新增合同种类维护详情"
+                    },
+                    {
+                      "type": "image",
+                      "index": 450,
+                      "original_name": "image82.png",
+                      "dimensions": "1430x400",
+                      "file_size": 23445
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 451,
+                      "text": "修正合同种类维护详情"
+                    },
+                    {
+                      "type": "image",
+                      "index": 452,
+                      "original_name": "image83.png",
+                      "dimensions": "1438x352",
+                      "file_size": 23116
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 453,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 454,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“合同种类维护”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 455,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "table",
+                      "index": 456,
+                      "row": 3,
+                      "col": 3,
+                      "data": [
+                        [
+                          "当前画面",
+                          "操作说明",
+                          "下一画面"
+                        ],
+                        [
+                          "合同种类维护",
+                          "点击按钮【新增】",
+                          "新增合同种类维护详情"
+                        ],
+                        [
+                          "合同种类维护",
+                          "选择一条记录点击按钮【修正】",
+                          "修正合同种类维护详情"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 457,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 458,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 459,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 460,
+                      "text": "合同种类维护初始化数据"
+                    },
+                    {
+                      "type": "table",
+                      "index": 461,
+                      "row": 17,
+                      "col": 3,
+                      "data": [
+                        [
+                          "所属合同种类",
+                          "合同种类代码",
+                          "合同种类名称"
+                        ],
+                        [
+                          "贷款合同",
+                          "LN",
+                          "贷款合同"
+                        ],
+                        [
+                          "其他合同",
+                          "BD",
+                          "BD: 贴现协议"
+                        ],
+                        [
+                          "其他合同",
+                          "GP",
+                          "GP: 跨境资金池"
+                        ],
+                        [
+                          "其他合同",
+                          "LR",
+                          "LR: 进口信用证代付"
+                        ],
+                        [
+                          "其他合同",
+                          "OD",
+                          "OD: 隔夜透支"
+                        ],
+                        [
+                          "其他合同",
+                          "BA",
+                          "BA: 承兑"
+                        ],
+                        [
+                          "其他合同",
+                          "FA",
+                          "FA: 保理"
+                        ],
+                        [
+                          "其他合同",
+                          "VF",
+                          "VF: 供应商融资"
+                        ],
+                        [
+                          "其他合同",
+                          "RF",
+                          "RF: 再保理"
+                        ],
+                        [
+                          "担保合同",
+                          "LG",
+                          "LG: 担保书"
+                        ],
+                        [
+                          "担保合同",
+                          "D",
+                          "D: 存款质押"
+                        ],
+                        [
+                          "担保合同",
+                          "B",
+                          "B: 票据质押"
+                        ],
+                        [
+                          "担保合同",
+                          "LA",
+                          "LA: 安慰函"
+                        ],
+                        [
+                          "委托贷款合同",
+                          "E",
+                          "E: 个别委托贷款"
+                        ],
+                        [
+                          "委托贷款合同",
+                          "GE",
+                          "GE:集团委托贷款"
+                        ],
+                        [
+                          "Pooling合同",
+                          "P",
+                          "Pooling合同"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 462,
+                      "text": "以上初始化数据："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 463,
+                      "text": "所属合同种类=其他合同，其项下的所有合同种类名称，均展示在合同签署-新增向导-其他合同种类的下拉选项中；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 464,
+                      "text": "所属合同种类=担保合同，其项下的所有合同种类名称，均展示在合同签署-新增向导-担保书种类的下拉选项中；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 465,
+                      "text": "所属合同种类=委托贷款合同，其项下的所有合同种类名称，均展示在合同签署-新增向导-委托贷款合同种类的下拉选项中。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 466,
+                      "text": "操作标识为“新增”或“修正”的合同种类维护记录，当审批状态更新为“已通过”时，同步更新合同签署-新增向导对应字段的下拉选项内容："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 467,
+                      "text": "所属合同种类=其他合同时，更新字段其他合同种类；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 468,
+                      "text": "所属合同种类=担保合同时，更新字段担保书种类；"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 469,
+                      "text": "所属合同种类=委托贷款合同时，更新字段委托贷款合同种类。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 470,
+                      "text": "生成合同Series No.时，引用合同种类代码的规则："
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 471,
+                      "text": "当合同种类为“贷款合同”时，直接引用所属合同种类为“贷款合同”的合同种类代码。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 472,
+                      "text": "当合同种类为“Pooling合同”时，直接引用所属合同种类为“Pooling合同”的合同种类代码。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 473,
+                      "text": "当合同种类为“其他合同”或“担保合同”或“委托贷款合同”时，引用符合以下所有条件记录中的合同种类名称对应的合同种类代码"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 474,
+                      "text": "合同种类维护流水号为最新"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 475,
+                      "text": "审批状态为“已通过”"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 476,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 477,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 478,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 479,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "index": 480,
+          "level": 2,
+          "text": "文档中心",
+          "children": [
+            {
+              "type": "heading",
+              "index": 481,
+              "level": 3,
+              "text": "模板管理",
+              "children": [
+                {
+                  "type": "heading",
+                  "index": 482,
+                  "level": 4,
+                  "text": "功能说明",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 483,
+                      "text": "本功能提供标准版合同模板的上传和模板版本管理功能，支持模板的在线预览，以及在合同签署时系统自动按对应模板生成合同文本。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 484,
+                  "level": 4,
+                  "text": "业务办理流程图",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 485,
+                      "text": "模板管理由总行管理人员单人操作。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 486,
+                  "level": 4,
+                  "text": "操作界面",
+                  "children": []
+                },
+                {
+                  "type": "heading",
+                  "index": 487,
+                  "level": 4,
+                  "text": "界面图示",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 488,
+                      "text": "模板管理"
+                    },
+                    {
+                      "type": "image",
+                      "index": 489,
+                      "original_name": "image84.png",
+                      "dimensions": "1549x452",
+                      "file_size": 42640
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 490,
+                      "text": "新增模板详情"
+                    },
+                    {
+                      "type": "image",
+                      "index": 491,
+                      "original_name": "image85.png",
+                      "dimensions": "1202x423",
+                      "file_size": 24846
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 492,
+                  "level": 4,
+                  "text": "输入/输出",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 493,
+                      "text": "详见《CCBP_需求规格说明书_信贷系统_合同管理.xlsx》文件的“模板管理”sheet页。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 494,
+                  "level": 4,
+                  "text": "页面操作逻辑",
+                  "children": [
+                    {
+                      "type": "table",
+                      "index": 495,
+                      "row": 3,
+                      "col": 3,
+                      "data": [
+                        [
+                          "当前画面",
+                          "操作说明",
+                          "下一画面"
+                        ],
+                        [
+                          "模板管理",
+                          "点击按钮【新增】",
+                          "新增模板详情"
+                        ],
+                        [
+                          "模板管理",
+                          "选择一条记录，点击按钮【在线预览】",
+                          "展示合同模板内容"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 496,
+                  "level": 4,
+                  "text": "凭证打印",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 497,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 498,
+                  "level": 4,
+                  "text": "业务处理",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 499,
+                      "text": "已生效的模板需要版本升级时，选择该模板后点击按钮【版本升级】，模板管理列表中复用新增一条模板记录，版本号默认在原版本号基础上增加1。"
+                    },
+                    {
+                      "type": "paragraph",
+                      "index": 500,
+                      "text": "通过【停用】按钮停用原模板后才可通过【启用】按钮启用版本升级模板。"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 501,
+                  "level": 4,
+                  "text": "约束检查",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 502,
+                      "text": "无"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "index": 503,
+                  "level": 4,
+                  "text": "会计核算",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "index": 504,
+                      "text": "无"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
