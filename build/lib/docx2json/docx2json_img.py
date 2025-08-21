@@ -1,10 +1,12 @@
 import os
 import json
 import re
+import tempfile
 import zipfile
 import io
+import shutil
 from PIL import Image
-import tempfile
+
 
 # 尝试使用python-docx库获取样式信息
 try:
@@ -48,6 +50,19 @@ class DocumentStructureExtractor:
         self.in_table_of_contents = False  # 是否在目录中
         self.toc_started = False  # 目录是否已开始
         self.content_started = False  # 正文是否已开始
+        
+        # 图片保存目录
+        self.image_dir = os.path.join(os.path.dirname(__file__), "temp_images")
+        
+        # 清理图片目录
+        self._clear_image_directory()
+        
+    def _clear_image_directory(self):
+        """清理图片目录"""
+        if os.path.exists(self.image_dir):
+            shutil.rmtree(self.image_dir)
+        os.makedirs(self.image_dir, exist_ok=True)
+        print(f"已清理并创建图片目录: {self.image_dir}")
 
     def extract_structure(self):
         """提取文档结构并返回JSON格式"""
@@ -223,13 +238,20 @@ class DocumentStructureExtractor:
                 original_name = rel.target_ref.split('/')[-1]
                 file_size = len(img_data)
                 
+                # 保存图片到文件夹
+                img_path = os.path.join(self.image_dir, original_name)
+                with open(img_path, 'wb') as f:
+                    f.write(img_data)
+                # print(f"图片已保存: {img_path}")#调试用输出
+                
                 # 创建图片节点
                 image_node = {
                     "type": "image", 
                     "index": self.element_counter, 
                     "original_name": original_name,
                     "dimensions": f"{w}x{h}",
-                    "file_size": file_size
+                    "file_size": file_size,
+                    "file_path": img_path
                 }
                 # 添加图片到结构中
                 self._add_image(image_node)
@@ -743,4 +765,4 @@ def extract_document(input_source, save_to_file=True, return_json=True):
             os.remove(docs_path)
 
 if __name__ == "__main__":
-    extract_document(docs_path,True)
+    extract_document(docs_path)

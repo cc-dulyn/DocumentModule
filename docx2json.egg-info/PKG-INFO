@@ -1,0 +1,87 @@
+Metadata-Version: 2.4
+Name: docx2json
+Version: 0.1.0
+Summary: A tool to convert DOCX documents to JSON format
+Author-email: Your Name <your.email@example.com>
+License: MIT License
+        
+        Copyright (c) [year] [fullname]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-docx>=0.8.10
+Requires-Dist: unstructured>=0.5.0
+Requires-Dist: Pillow>=9.0.0
+Dynamic: license-file
+
+# docx2json
+
+A tool to convert DOCX documents to JSON format, preserving document structure and extracting images.
+
+## Features
+- Extract document structure (cover, table of contents, body content)
+- Convert text, headings, tables, and images to JSON format
+- Support for multiple extraction libraries (python-docx and unstructured)
+- Image extraction and saving
+
+## Installation
+
+### Using pip
+```bash
+pip install .
+```
+
+### From source
+```bash
+git clone https://github.com/yourusername/docx2json.git
+cd docx2json
+pip install .
+```
+
+## Usage
+
+### As a command-line tool
+```bash
+docx2json input_file.docx output_file.json
+```
+
+### As a Python library
+```python
+from docx2json import DocumentStructureExtractor
+
+extractor = DocumentStructureExtractor('input_file.docx')
+json_structure = extractor.extract_structure()
+
+# Save to file
+with open('output_file.json', 'w', encoding='utf-8') as f:
+    json.dump(json_structure, f, ensure_ascii=False, indent=2)
+```
+
+## Dependencies
+- python-docx: For parsing DOCX documents
+- unstructured: For fallback document parsing
+- Pillow: For image processing
+
+## License
+MIT License

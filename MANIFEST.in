@@ -1,0 +1,2 @@
+include README.md LICENSE __init__.py
+recursive-include docx2json *.py

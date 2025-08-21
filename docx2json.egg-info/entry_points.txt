@@ -1,0 +1,2 @@
+[console_scripts]
+docx2json = docx2json.docx2json:main
